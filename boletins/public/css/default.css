@@ -1,0 +1,131 @@
+body {
+    background: silver;
+    font: 14px 'trebuchet ms', arial, sans-serif;
+}
+
+/** Structure */
+#header {
+    padding: 20px;
+    color: #fff;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/ 
+    border-bottom: 3px solid #cc0033;
+    
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#E8E8E8, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E8E8E8, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E8E8E8, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E8E8E8, white); /* Standard syntax */
+}
+
+#content {
+    background: #fff;
+    padding: 20px;
+}
+
+#footer {
+    color: #fff;
+    padding: 20px;
+    border-top: 3px solid #cc0033;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white,#E8E8E8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white,#E8E8E8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #E8E8E8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white,#E8E8E8); /* Standard syntax */
+}
+
+.pnlBol{    
+    border: 1px solid #cc0033;
+    border-radius: 5px 5px 5px;
+    background: #73AD21;
+    padding: 5px; 
+        
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, whitesmoke, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, whitesmoke, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, whitesmoke, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, whitesmoke, white); /* Standard syntax */
+}
+
+.pnlTituloBol{
+    height: 25px;
+    padding: 10px;
+}
+
+.pnlConteudoBol{
+    padding: 10px;
+    border-radius: 2px 2px 2px;
+    background-color: #fff;
+}
+.controle{
+    cursor:pointer;
+    padding: 10px;
+    border-radius: 2px 2px 2px;
+    font-size: medium;
+    
+    background: #f1f1f1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f1f1f1,white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f1f1f1,white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f1f1f1, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f1f1f1,white); /* Standard syntax */
+}
+.controle_conteudo{
+    padding-left: 10px;
+}
+
+.paragrafo_conteudo{
+    padding: 8px;
+}
+
+/* Links */
+#header a {
+    color: #000000; 
+    /* background: #436fac; */
+    padding: 4px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#header a:hover {    
+    color: #cc0033;
+}
+
+/** Forms */
+form {
+    font: 100% verdana,arial,sans-serif;
+}
+
+form label { 
+    display: block;
+    float: left; 
+    width: 150px; 
+    padding: 0; 
+    margin: 9px 0 0;
+    text-align: right; 
+}
+
+form input, form select {
+    width: auto;
+    margin: 5px 0 0 10px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+form input[type=submit]:hover {
+    cursor: pointer;
+    background: white;
+}
+
+
+form br {clear: left;}
+
+
+
+
+
+
+
